@@ -1,0 +1,30 @@
+@import './column';
+
+.root {
+  padding: 20px;
+
+}
+.wrapper {
+  h1 {
+    font-size: 24px;
+    color: red;
+    font-weight: normal;
+
+    span {
+      font-weight: bold;
+    }
+  }
+  h3 {
+    color: red;
+  }
+}
+.table {
+  overflow: scroll;
+  padding: 10px;
+}
+.wrapColumns {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+

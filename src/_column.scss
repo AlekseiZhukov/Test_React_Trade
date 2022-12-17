@@ -1,0 +1,31 @@
+.headerColumn {
+  width: 400px;
+  .headerColumnMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    color: #3e3eee;
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  }
+  .headerColumnSub {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    margin-bottom: 100px;
+    div {
+      display: flex;
+      align-items: center;
+      height: 60px;
+      padding: 0 10px;
+      &:nth-child(odd) {
+        background: rgba(0, 0, 0, 0.11);
+      }
+    }
+
+  }
+
+}
